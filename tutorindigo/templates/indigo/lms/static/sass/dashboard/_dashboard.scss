@@ -58,15 +58,13 @@
 .course-heading-area {
     margin: 0 0 20px;
     font-size: 14px;
-    font-family: "DM Sans", Sans-serif;
-    color: #B81919;
     @include media-breakpoint-up(md) {
         margin: 0 0 30px;
         font-size: 16px;
         line-height: 20px;
     }
     h2 {
-        color: #111827;
+        color: #B81919;
         font-size: 20px;
         font-weight: 700;
         line-height: 30px;
@@ -79,6 +77,10 @@
     }
     p {
         margin: 0;
+        /*TEST*/
+        font-family: "DM Sans", Sans-serif !important;
+        font-style: italic;
+        font-size: 22px;
     }
 }
 .empty-dashboard-message {

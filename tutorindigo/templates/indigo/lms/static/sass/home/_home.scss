@@ -15,6 +15,14 @@ section.home {
         letter-spacing: -.32em;
         margin: 0 -7px;
         .nav-item {
+            /*BEGIN TEST*/
+            color: #002481;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 26px; /* 162.5% */
+            /*END TEST*/
+
             letter-spacing: normal;
             margin: 0 7px;
             padding: 12px 0;
