@@ -93,7 +93,10 @@
         ## which are not technically powered by OpenEdX.
         % if not hide_openedx_link:
         <ul class="logo-list">
-          <li>Powered by:</li>
+          <a href="" rel="noopener" target="_blank">
+            <img src="${static.url('/images/logo.png')}" alt="Deduc" width="184px" height="68px"/>
+          </a>
+         <!--  <li>Powered by:</li>
           <li>
             <a href="https://docs.tutor.edly.io" rel="noopener" target="_blank">
               <img src="${static.url('images/tutor-logo.png')}" alt="Runs on Tutor" width="80" />
@@ -104,7 +107,7 @@
               <img src="${static.url('images/openedx-logo.png')}" alt="${footer['openedx_link']['title']}" width="79" />
             </a>
           </li>
-        </ul>
+        </ul> -->
       </div>
       {% if INDIGO_FOOTER_NAV_LINKS %}
       <nav class="nav-colophon" aria-label="${_('About')}">
