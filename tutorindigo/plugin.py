@@ -107,7 +107,6 @@ hooks.Filters.CONFIG_OVERRIDES.add_items(list(config["overrides"].items()))
 #  MFEs that are styled using Indigo
 indigo_styled_mfes = [
     "learning",
-    "learner-dashboard",
     "profile",
     "account",
     "discussions",

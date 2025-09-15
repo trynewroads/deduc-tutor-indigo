@@ -64,10 +64,11 @@
         line-height: 20px;
     }
     h2 {
-        color: #B81919;
-        font-size: 20px;
+        color: $secondary-600;
+        font-size: 35px;
+        font-style: normal;
         font-weight: 700;
-        line-height: 30px;
+        line-height: 42px;
         margin: 0 0 8px;
         @include media-breakpoint-up(md) {
             font-size: 24px;
@@ -78,9 +79,12 @@
     p {
         margin: 0;
         /*TEST*/
-        font-family: "DM Sans", Sans-serif !important;
-        font-style: italic;
-        font-size: 22px;
+        font-family: $dm-sans;
+        color: $secondary-600;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 26px; 
     }
 }
 .empty-dashboard-message {
