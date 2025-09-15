@@ -4,8 +4,14 @@ $primary-light: #F2F7F8;
 // Theme fonts
 $font-family-title: 'Inter', sans-serif;
 $serif: Crimson;
-$f-sans-serif: Crimson, 'Open Sans','Helvetica Neue', Helvetica, Arial, sans-serif;
+
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+$dm-sans: 'DM Sans', sans-serif;
+$f-sans-serif: $dm-sans, Crimson, 'Open Sans','Helvetica Neue', Helvetica, Arial, sans-serif;
+
+
 // Initialize the Open edX Bootstrap theme
 @import 'edx-bootstrap/sass/open-edx/theme';
 
