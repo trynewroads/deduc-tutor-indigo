@@ -5,7 +5,8 @@ $content-padding-bottom: 10px;
 $header-height: 75px;
 $footer-height: 125.5px;
 body, h1, h2, h3, h4, h5, h6, p, label, button {
-  font-family: $font-family-title !important;
+  color: $secondary-600;
+  font-family: $dm-sans !important;
 }
 html {
   background: transparent !important;
@@ -35,6 +36,21 @@ input:-webkit-autofill:active{
 .add-article-btn,
 .member-list-widget .add,
 section.wiki .btn.btn-primary {
+  display: inline-flex;
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background: $secondary-600;
+  border-radius: 16px;
+
+  color:  #FFF;
+  text-align: center;
+  font-family: $dm-sans !important;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px; 
 
   &:focus,
   &:focus-visible {
