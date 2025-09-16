@@ -21,6 +21,7 @@ body {
       transform: translateX(-50%);
       z-index: 9999;
       clip: auto;
+      
     }
   }
 }
@@ -137,7 +138,7 @@ header.global-header {
                         color: $light-dark;
                         &:hover {
                             background: $primary-light;
-                            color: $dark;                         ;
+                            color: $dark;
                         }
                     }
                 }
