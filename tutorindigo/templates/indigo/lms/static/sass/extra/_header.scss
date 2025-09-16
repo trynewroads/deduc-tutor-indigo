@@ -26,7 +26,6 @@ body {
 }
 
 header.global-header {
-    display: flex;
     border: none;
     padding: 0;
     overflow: visible;
@@ -66,53 +65,40 @@ header.global-header {
     }
     .nav-links {
         width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: flex-end;
-
         .main {
-            display: flex;
-            margin-left: auto;
-
             margin: 0 0 0 38px;
             .nav-tab {
                 a {
-                    font-family: $dm-sans;
-                    color: $secondary-600;
-                    font-size: 16px;
-                    font-style: normal;
+                    font-size: 14px;
                     font-weight: 500;
-                    line-height: 26px; 
+                    line-height: 22px;
                     padding: 20px 0;
+                    color: $light-dark;
                     margin: 0 16px 0 0;
+                    border-bottom: 2px solid transparent;
                     &.active, &:hover {
-                        //color: $dark;
-                        border-bottom: 0px;
-                        color: $secondary-600;
-                        font-weight: 800;
+                        color: $dark;
+                        border-bottom: 2px solid $primary;
                     }
                 }
             }
         }
         .secondary {
             margin: 0;
-            margin-left: 20px;
-            display: flex;
-            align-items: center;
             position: relative;
             justify-content: end;
             .toggle-user-dropdown {
-                padding: 16px 24px;
-                background: $secondary-100;
-                color: $secondary-600;
-                font-size: 16px;
+                padding: 9px 15px;
+                background: $primary-light;
+                color: $primary;
+                font-size: 14px;
                 font-weight: 500;
-                line-height: 26px;
-                border-radius: 16px;
+                line-height: 20px;
+                border-radius: 6px;
                 margin: 12px 0;
                 &:after {
                     margin: 4px 0 0 4px;
-                    border: 2px solid #002481;
+                    border: 2px solid #15376D;
                     border-width: 2px 2px 0 0;
                     transform: rotate(135deg);
                     content: "";
@@ -151,7 +137,7 @@ header.global-header {
                         color: $light-dark;
                         &:hover {
                             background: $primary-light;
-                            color: $dark;                        
+                            color: $dark;                         ;
                         }
                     }
                 }
