@@ -129,6 +129,20 @@ RUN npm install '@edx/brand@npm:@edly-io/indigo-brand-openedx@^2.2.2'
 const { default: IndigoFooter } = await import('@edly-io/indigo-frontend-component-footer');
 """,
             ),
+            (
+                "mfe-lms-development-settings",
+                """
+MFE_CONFIG["LOGO_URL"] = "images/logo.svg"
+
+    """
+        ),
+        (
+            "mfe-lms-production-settings",
+            """
+MFE_CONFIG["LOGO_URL"] = "images/logo.svg"
+    """
+        ),
+
         ]
     )
 

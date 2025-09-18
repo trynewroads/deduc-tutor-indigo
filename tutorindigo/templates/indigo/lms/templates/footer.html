@@ -29,11 +29,9 @@
       ## which are not technically powered by OpenEdX.
       % if not hide_openedx_link:
       <ul class="logo-list">
-        <li>
           <a href="/" rel="noopener" target="_blank">
             <img class="logo-image" src="${static.url('images/logo.png')}" alt="${_('{platform_name} Home Page').format(platform_name=static.get_platform_name())}" itemprop="logo" height="24" />
           </a>
-        </li>
    
       </ul>
     </div>
@@ -88,12 +86,9 @@
         ## which are not technically powered by OpenEdX.
         % if not hide_openedx_link:
         <ul class="logo-list">
-          <li>
             <a href="/" rel="noopener" target="_blank">
               <img class="logo-image" src="${static.url('images/logo.png')}" alt="${_('{platform_name} Home Page').format(platform_name=static.get_platform_name())}" itemprop="logo" height="24" />
-            </a>
-          </li>
-         
+            </a>         
       </div>
       {% if INDIGO_FOOTER_NAV_LINKS %}
       <nav class="nav-colophon" aria-label="${_('About')}">
