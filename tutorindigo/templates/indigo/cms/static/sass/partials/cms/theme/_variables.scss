@@ -11,10 +11,30 @@ $m-blue-d6: mix(rgb(42, 134, 226), $primary, 40%) !default;
 
 $uxpl-blue-hover-active: lighten($primary, 7%) !default;
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+// Theme fonts
 $serif: 'Inter';
-$f-sans-serif: 'Inter', 'Open Sans','Helvetica Neue', Helvetica, Arial, sans-serif;
-$font-family-title: 'Inter';
-$font-family-sans-serif: 'Inter', 'Open Sans','Helvetica Neue', Helvetica, Arial, sans-serif;
+$dm-sans: 'DM Sans', sans-serif;
+$f-sans-serif: $dm-sans, Crimson, 'Open Sans','Helvetica Neue', Helvetica, Arial, sans-serif;
+$font-family-title: $dm-sans,  sans-serif;
+$font-family-body: $dm-sans,  sans-serif;
+$font-family-sans-serif: $dm-sans, 'Inter', 'Open Sans','Helvetica Neue', Helvetica, Arial, sans-serif;
+
 
 // Initialize the Open edX Bootstrap theme
+
 @import 'edx-bootstrap/sass/open-edx/theme';
+
+
+// Introducing new variables
+
+$dark: #111827;
+$light-dark: #374151;
+$big-screen: 1200px;
+
+
+$secondary-700:#000C3B;
+$secondary-600:#002481;
+$secondary-100: #E1E3FF;

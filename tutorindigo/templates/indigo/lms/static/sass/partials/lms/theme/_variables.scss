@@ -8,8 +8,8 @@ $primary-light: #F2F7F8;
 $serif: Crimson;
 $dm-sans: 'DM Sans', sans-serif;
 $f-sans-serif: $dm-sans, Crimson, 'Open Sans','Helvetica Neue', Helvetica, Arial, sans-serif;
-$font-family-title: dm-sans,  sans-serif;
-$font-family-body: dm-sans,  sans-serif;
+$font-family-title: $dm-sans,  sans-serif;
+$font-family-body: $dm-sans,  sans-serif;
 
 // Initialize the Open edX Bootstrap theme
 @import 'edx-bootstrap/sass/open-edx/theme';
