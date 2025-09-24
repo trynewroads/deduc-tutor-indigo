@@ -132,14 +132,14 @@ const { default: IndigoFooter } = await import('@edly-io/indigo-frontend-compone
             (
                 "mfe-lms-development-settings",
                 """
-MFE_CONFIG["LOGO_URL"] = "images/logo.svg"
+MFE_CONFIG["LOGO_URL"] = "images/logo.png"
 
     """
         ),
         (
             "mfe-lms-production-settings",
             """
-MFE_CONFIG["LOGO_URL"] = "images/logo.svg"
+MFE_CONFIG["LOGO_URL"] = "images/logo.png"
     """
         ),
 
